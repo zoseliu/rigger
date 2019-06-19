@@ -37,10 +37,10 @@ public class SwaggerConfig{
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-            .title("人人开源")
-            .description("admin文档")
+            .title("接口文档")
+            .description("main文档")
             .termsOfServiceUrl("https://www.xxx.xxx")
-            .version("4.0.0")
+            .version("1.0.0")
             .build();
     }
 

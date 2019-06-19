@@ -9,7 +9,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     #MySQL配置
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.16.0.207:3306/LG_GeneratorDB?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://172.16.0.207:3306/TEMP_LOG_DB?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: root
     #oracle配置
