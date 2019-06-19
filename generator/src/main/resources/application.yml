@@ -9,9 +9,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     #MySQL配置
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/northsoft_security?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-    username: northsoft
-    password: 123456
+    url: jdbc:mysql://172.16.0.207:3306/LG_GeneratorDB?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
     #oracle配置
 #    driverClassName: oracle.jdbc.OracleDriver
 #    url: jdbc:oracle:thin:@192.168.10.10:1521:helowin
