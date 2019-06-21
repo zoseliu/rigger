@@ -1,4 +1,4 @@
-package com.northsoft.modules.wechat.utils;
+package com.northsoft.modules.worker.utils;
 
 import cn.hutool.http.HttpUtil;
 import cn.hutool.setting.dialect.Props;
