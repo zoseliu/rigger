@@ -8,6 +8,9 @@ import com.northsoft.common.utils.R;
 import com.northsoft.common.validator.ValidatorUtils;
 import com.northsoft.modules.job.entity.ScheduleJobEntity;
 import com.northsoft.modules.job.service.ScheduleJobService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -19,6 +22,7 @@ import java.util.Map;
  *
  * @author Mark sunlightcs@gmail.com
  */
+@Api(tags = "定时任务后台接口")
 @RestController
 @RequestMapping("/sys/schedule")
 public class ScheduleJobController {
@@ -41,7 +45,8 @@ public class ScheduleJobController {
 	 */
 	@RequestMapping("/info/{jobId}")
 	@RequiresPermissions("sys:schedule:info")
-	public R info(@PathVariable("jobId") Long jobId){
+	@ApiOperation("刘轶测试")
+	public R info(@ApiParam(value = "任务ID", required = true) @PathVariable("jobId") Long jobId){
 		ScheduleJobEntity schedule = scheduleJobService.getById(jobId);
 		
 		return R.ok().put("schedule", schedule);
