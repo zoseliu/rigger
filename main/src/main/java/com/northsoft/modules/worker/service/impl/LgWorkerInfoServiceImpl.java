@@ -13,7 +13,7 @@ import com.northsoft.common.utils.RedisUtils;
 import com.northsoft.modules.worker.dao.LgWorkerInfoDao;
 import com.northsoft.modules.worker.entity.LgWorkerInfoEntity;
 import com.northsoft.modules.worker.service.LgWorkerInfoService;
-import com.northsoft.modules.worker.utils.WeChatUtils;
+import com.northsoft.modules.utils.WeChatUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

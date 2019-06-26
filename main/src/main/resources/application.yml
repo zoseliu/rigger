@@ -16,8 +16,8 @@ spring:
     time-zone: GMT+8
   servlet:
     multipart:
-      max-file-size: 100MB
-      max-request-size: 100MB
+      max-file-size: 5MB
+      max-request-size: 20MB
       enabled: true
   redis:
     database: 1

@@ -20,6 +20,8 @@
         <swagger.version>2.7.0</swagger.version>
 
         <hutool-all.version>4.1.19</hutool-all.version>
+        <im4java.version>1.4.0</im4java.version>
+        <okhttp3.version>3.14.2</okhttp3.version>
     </properties>
 
     <dependencies>
@@ -103,6 +105,16 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>${hutool-all.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.im4java</groupId>
+            <artifactId>im4java</artifactId>
+            <version>${im4java.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp3.version}</version>
         </dependency>
     </dependencies>
 

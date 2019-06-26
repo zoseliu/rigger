@@ -1,4 +1,4 @@
-package com.northsoft.modules.worker.utils;
+package com.northsoft.modules.utils;
 
 import cn.hutool.http.HttpUtil;
 import cn.hutool.setting.dialect.Props;
