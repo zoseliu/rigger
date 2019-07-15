@@ -45,7 +45,6 @@ public class ScheduleJobController {
 	 */
 	@RequestMapping("/info/{jobId}")
 	@RequiresPermissions("sys:schedule:info")
-	@ApiOperation("刘轶测试")
 	public R info(@ApiParam(value = "任务ID", required = true) @PathVariable("jobId") Long jobId){
 		ScheduleJobEntity schedule = scheduleJobService.getById(jobId);
 		
